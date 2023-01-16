@@ -1,37 +1,76 @@
-HELP.md
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+/hellospring/HELP.md
+/hellospring/.gradle
+/hellospring/build/
+!/hellospring/gradle/wrapper/gradle-wrapper.jar
+!/hellospring/**/src/main/**/build/
+!/hellospring/**/src/test/**/build/
 
 ### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+/hellospring/.apt_generated
+/hellospring/.classpath
+/hellospring/.factorypath
+/hellospring/.project
+/hellospring/.settings
+/hellospring/.springBeans
+/hellospring/.sts4-cache
+/hellospring/bin/
+!/hellospring/**/src/main/**/bin/
+!/hellospring/**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+/hellospring/.idea
+/hellospring/*.iws
+/hellospring/*.iml
+/hellospring/*.ipr
+/hellospring/out/
+!/hellospring/**/src/main/**/out/
+!/hellospring/**/src/test/**/out/
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+/hellospring/nbproject/private/
+/hellospring/nbbuild/
+/hellospring/dist/
+/hellospring/nbdist/
+/hellospring/.nb-gradle/
 
 ### VS Code ###
-.vscode/
+/hellospring/.vscode/
+
+
+/core/HELP.md
+/core/.gradle
+/core/build/
+!/core/gradle/wrapper/gradle-wrapper.jar
+!/core/**/src/main/**/build/
+!/core/**/src/test/**/build/
+
+### STS ###
+/core/.apt_generated
+/core/.classpath
+/core/.factorypath
+/core/.project
+/core/.settings
+/core/.springBeans
+/core/.sts4-cache
+/core/bin/
+!/core/**/src/main/**/bin/
+!/core/**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+/core/.idea
+/core/*.iws
+/core/*.iml
+/core/*.ipr
+/core/out/
+!/core/**/src/main/**/out/
+!/core/**/src/test/**/out/
+
+### NetBeans ###
+/core/nbproject/private/
+/core/nbbuild/
+/core/dist/
+/core/nbdist/
+/core/.nb-gradle/
+
+### VS Code ###
+/core/.vscode/
